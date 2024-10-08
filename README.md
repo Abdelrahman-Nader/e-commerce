@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # packages:
 
- ## 1- ng add @angular/material
+[ ## 1- ng add @angular/material]
  ## 2- npm i ngx-toster
  ## 3- npm i @ngx-translate/core
  ## 4- npm i @ngx-translate/http-loader
