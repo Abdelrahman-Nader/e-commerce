@@ -84,7 +84,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ### modules
 
-## assists
+## assests
 
 ### i118n
 
@@ -93,3 +93,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 #### en.json
 
 ### images
+
+## admin layout
+
+## user layout
+
+## Public layout by module
