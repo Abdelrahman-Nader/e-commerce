@@ -26,18 +26,70 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
-## packages
+# Packages
 
-### 1- ng add @angular/material
+## 1- `ng add @angular/material`
 
-### 2- npm i ngx-toster
+## 2- `npm i ngx-toster`
 
-### 3- npm i @ngx-translate/core
+## 3- `npm i @ngx-translate/core`
 
-### 4- npm i @ngx-translate/http-loader
+## 4- `npm i @ngx-translate/http-loader`
 
-### 5- npm i ngx-translate-messageformat-compiler
+## 5- `npm i ngx-translate-messageformat-compiler`
 
-### 6- npm i bootstrap
+## 6- `npm i bootstrap`
 
-### 7- Font-Awesome-Icons cdn
+## 7- `Font-Awesome-Icons`cdn
+
+# Project structure
+ 
+## FolderCore:
+
+### Account
+
+### cart
+
+### Favorite
+
+### Home
+
+### Production
+
+### orders
+
+### Profile
+
+### Notifications
+
+## FolderAdmin:
+
+### Products 
+
+### Categories
+
+### Feedback
+
+### Notification
+
+## shared
+
+### component
+
+### models
+
+### enums
+
+### services
+
+### modules
+
+## assists
+
+### i118n
+
+#### ar.json
+
+#### en.json
+
+### images
