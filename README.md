@@ -43,8 +43,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## 7- `Font-Awesome-Icons`cdn
 
 # Project structure
- 
-## FolderCore:
+
+## FolderCore':'
 
 ### Account
 
@@ -62,9 +62,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ### Notifications
 
-## FolderAdmin:
+## FolderAdmin':'
 
-### Products 
+### Products
 
 ### Categories
 

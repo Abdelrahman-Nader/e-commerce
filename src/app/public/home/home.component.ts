@@ -8,6 +8,8 @@ import { CustomerFeedbackComponent } from './customer-feedback/customer-feedback
 import { MonthDealsComponent } from './month-deals/month-deals.component';
 import { OurServicesComponent } from './our-services/our-services.component';
 import { StoryInstaComponent } from './story-insta/story-insta.component';
+import { FooterComponent } from '../shared/footer/footer.component';
+import { HeaderComponent } from '../shared/header/header.component';
 
 @Component({
   selector: 'app-home',
@@ -21,6 +23,8 @@ import { StoryInstaComponent } from './story-insta/story-insta.component';
     MonthDealsComponent,
     OurServicesComponent,
     StoryInstaComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'

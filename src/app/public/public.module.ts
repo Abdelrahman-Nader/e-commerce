@@ -5,6 +5,7 @@ import { PublicRoutingModule } from './public-routing.module';
 import { PublicComponent } from './public.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { SharedModule } from './shared/shared.module';
 
 
 @NgModule({
@@ -12,8 +13,7 @@ import { FooterComponent } from './shared/footer/footer.component';
     PublicComponent
   ],
   imports: [
-    HeaderComponent,
-    FooterComponent,
+    SharedModule,
     CommonModule,
     PublicRoutingModule
   ]

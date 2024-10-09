@@ -1,1 +1,55 @@
-<p>header works!</p>
+<div class="container">
+  <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+    <a  class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+        <use xlink:href="#bootstrap"></use></svg>
+    </a>
+
+    <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+      <!-- <li><a  class="nav-link px-2 link-secondary">Home</a></li> --><li>
+              <a routerLink="home" routerLinkActive="router-link-active"  class="nav-link text-secondary d-flex flex-column-reverse justify-content-center align-items-center">
+                Home
+                <i class="fa-duotone fa-solid fa-house fa-lg d-block mb-2 " style="color: cornflowerblue;"></i>
+              </a>
+            </li>
+      <!-- <li><a  class="nav-link px-2 link-secondary">Home</a></li> -->
+      <li>
+        <a routerLink="products" routerLinkActive="router-link-active"  class="nav-link px-2 link-dark d-flex flex-column-reverse justify-content-center align-items-center">Products
+          <i class="fa-solid fa-tag fa-lg d-block mb-2" style="color: cornflowerblue;"></i>
+      </a>
+      </li>
+      <li><a routerLink="ourservices" routerLinkActive="router-link-active"  class="nav-link px-2 link-dark d-flex flex-column-reverse justify-content-center align-items-center">Services
+        <i class="fa-solid fa-gear fa-lg d-block mb-2" style="color: cornflowerblue;"></i>
+      </a></li>
+    </ul>
+
+    <div class="col-md-3 text-end">
+      <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+        <mat-icon>more_vert</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu" xPosition="before">
+        <button mat-menu-item>
+          <span>notification</span>
+          <i class="fa-solid fa-bell ms-2" style="color: #a82200;"></i>
+        </button>
+        <button mat-menu-item>
+          <span>Profile</span>
+          <i class="fa-solid fa-user ms-2" style="color: #a82200;"></i>
+        </button>
+
+        <button mat-menu-item>
+          <span>Login</span>
+          <i class="fa-solid fa-right-to-bracket ms-2" style="color: #1ca800;"></i>
+        </button>
+        <button mat-menu-item >
+          <span>Sign-up</span>
+          <i class="fa-solid fa-right-from-bracket ms-2" style="color: #a82200;"></i>
+        </button>
+
+      </mat-menu>
+
+      <!-- <button type="button" class="btn btn-outline-primary me-2">Login</button>
+      <button type="button" class="btn btn-primary">Sign-up</button> -->
+    </div>
+  </header>
+</div>
